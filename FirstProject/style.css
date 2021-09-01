@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.input-search{
+border: none !important;
+background-color: #f8f9fa;
+width: 100%;
+height: fit-content;
+border-radius: 20px;
+}
+.input-search:focus{
+    outline: none;
+    box-shadow: none;
+    background-color: #f8f9fa;
+    font-family: monospace
+
+
+}
+.box-search{
+    border:1px solid rgb(129, 118, 118);
+    border-radius: 20px;
+    display: flex;
+ align-items: center;
+ padding-left: 10px;
+}
+.fa-search{
+    color: #a19c9c;
+}
+.carousel-caption{
+    position: unset;
+    flex: 3;
+}
+header img{
+    flex: 6;
+  max-width: 25%;
+  min-width: 25%;
+  max-height: 100%;
+  height: 350px;
+  margin-right: 200px;
+
+}
+.slide{
+    background-color: teal;
+    padding: 30px;
+}
+
+
+.carousel-indicators button {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-clip: unset;
+    width: 25px;
+    padding: 0;
+}
+.cetogery{
+    margin-top: 100px;
+    /* font-size: 20px !important; */
+}
+.cetogery .card{
+max-width: 300px;
+padding: 10px;
+}
+.card img{
+    transition: ease 1s ;
+}
+.card img:hover{
+  transform: scale(1.1,1.1)
+}
+
+.model{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.model img{
+ width: 250px; 
+ height: 250px;
+ padding: 10px;
+ border-left: 1px solid black;
+ filter: grayscale(100%);
+ max-width: 250px;
+ max-height: 250px;
+
+}
+.items{
+    position: relative;
+}
+.model .bottom {
+   position: absolute;
+   left: 60px;
+   top: 120px; 
+   display: flex;
+   justify-content: space-between;
+   width: 40%;
+   visibility: hidden;
+   transition:  ease-in .5s all;
+}
+
+.model img:hover{
+    opacity: 0.3;
+    
+    
+}
+
+.items:hover .bottom{
+    visibility: visible;
+    top: 100px;
+}
+
+.coal{
+    
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black ;
+    margin-bottom: 100px;
+    padding: 40px;
+}
+.coal-icon{
+    display: flex;
+    align-items: center;
+}
+.coal-icon .fas{
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.coal p {
+   font-size:20px ;
+}
+
+.offers{
+    padding-top: 100px;
+     padding-bottom: 100px;
+    background-color: cadetblue;
+    margin-bottom: 100px;
+}
+.offers button{
+    border-radius: 20px;
+    margin-left: 15px;
+    background-color: darkcyan;
+     
+}
+.offers button:hover{
+    background-color: orangered;
+}
